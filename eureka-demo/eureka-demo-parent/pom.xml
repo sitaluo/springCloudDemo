@@ -37,5 +37,6 @@
   <modules>
     <module>eureka-server-demo</module>
     <module>eureka-client-demo</module>
+    <module>eureka-ribbon-client</module>
   </modules>
 </project>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: eureka-ribbon-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.sitaluo
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://maven.apache.org/eureka-ribbon-client
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
