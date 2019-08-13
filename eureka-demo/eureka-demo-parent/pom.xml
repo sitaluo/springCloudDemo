@@ -38,5 +38,6 @@
     <module>eureka-server-demo</module>
     <module>eureka-client-demo</module>
     <module>eureka-ribbon-client</module>
+    <module>eureka-feign-client</module>
   </modules>
 </project>

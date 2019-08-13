@@ -1,8 +1,8 @@
 spring:
   application:
-    name: eureka-client
+    name: eureka-fegin-client
 server:
-  port : 8763
+  port : 8765
 eureka:
   client: 
     serverUrl:
