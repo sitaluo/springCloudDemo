@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.sitaluo.config.FeignConfig;
 
-@FeignClient(value="eureka-client",configuration=FeignConfig.class)
+@FeignClient(value="eureka-client",configuration=FeignConfig.class,fallback=HiHystrix.class)
 public interface EurekaClientFeign {
 	
 	@GetMapping("/hi")
