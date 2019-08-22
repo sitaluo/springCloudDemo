@@ -31,5 +31,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>eureka-server1</module>
+		<module>auth-service</module>
 	</modules>
 </project>
