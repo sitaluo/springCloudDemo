@@ -1,9 +1,12 @@
 server:
-  port: 5000
-  context-path: /uaa
+  port: 9090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
-    name: service-auth
+    name: user-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/spring-cloud-auth?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
@@ -13,11 +16,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-security:
-  oauth2:
-    resource:
-      filter-order: 3
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: true
